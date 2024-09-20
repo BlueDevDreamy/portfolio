@@ -2,7 +2,8 @@ import { withSentryConfig } from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    distDir: 'build'
+    distDir: 'docs',
+    basePath: '/portfolio/docs'
 };
 
 export default withSentryConfig(nextConfig, {
