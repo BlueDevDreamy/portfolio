@@ -3,7 +3,7 @@ import { withSentryConfig } from '@sentry/nextjs';
 const nextConfig = {
     output: 'export',
     distDir: 'docs',
-    basePath: '/.',
+    basePath: '/portfolio',
 };
 
 export default withSentryConfig(nextConfig, {
