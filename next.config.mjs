@@ -3,7 +3,11 @@ import { withSentryConfig } from '@sentry/nextjs';
 const nextConfig = {
     output: 'export',
     distDir: 'docs',
-    basePath: '/portfolio/docs'
+    basePath: '/portfolio/docs',
+    images: {
+        loader: "akamai",
+        path: ""
+    }
 };
 
 export default withSentryConfig(nextConfig, {
