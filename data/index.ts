@@ -125,32 +125,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "./host.svg",
+    nameImg: "./hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "./s.svg",
+    nameImg: "./streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
   },
 ];
 
@@ -160,42 +160,42 @@ export const workExperience = [
     title: "Software Engineer Intern",
     desc: "Assisted in the development of a web-based platform using Java and React.js, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
     title: "Junior Developer - Bridgit",
     desc: "Developed and maintained software solutions, primarily using Java.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   {
     id: 3,
     title: "Developer, Tester, Inspector - Swipe",
     desc: "Tested and inspected software systems for accuracy and reliability while developing enterprise backend project.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "./exp3.svg",
   },
   {
     id: 4,
     title: "Lead Software Engineer",
     desc: "Led and managed Android teams, ensuring timely delivery and high-quality outcomes.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "./exp4.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "./twit.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
   },
 ];
